@@ -1,0 +1,6 @@
+name = input("請問同學名字?")
+print("你好，",name)
+year = int(input("請問幾歲?"))
+print("原來你",year,"歲")
+weight = float(input("請問體重?"))
+print("體重為",weight)
