@@ -1,0 +1,337 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNo5QG/Iu1LquTS1Lf3HWvs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/arimie333/Computational-Thinking-and-Program-Design/blob/master/week6%20work%200409\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "BYbezRKfljdn",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "6dc7e9b3-5127-4e0e-a5d9-e26ddc4912cb"
+      },
+      "source": [
+        "name=input(\"Enter your name:\")"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your name:黎孟承\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "3cGujEQflkEv",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "4691b187-63ce-4202-cd97-9e7a7620017e"
+      },
+      "source": [
+        "print(\"我叫做\",\"黎孟承\")"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我叫做 黎孟承\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SrCNmF-ylkOr",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "3b0458bc-18b8-4cae-d09d-c2eb674a05fe"
+      },
+      "source": [
+        "age=input(\"Enter your age: \")"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your age: 19\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "lAJDwdKdlkXF",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "2ab35d56-4b0a-4257-8e48-75cf00d76944"
+      },
+      "source": [
+        "print(\"我的年紀是\",19,\"歲\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的年紀是 19 歲\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SJA50WR1lkf2",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "68f18411-a723-4836-b03c-9054144162a5"
+      },
+      "source": [
+        "weight=input(\"Enter your weight: \")"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Enter your weight: 56\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_SVQoyZ4lkrt",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "874dfb3c-5714-4530-f007-dba2226d614a"
+      },
+      "source": [
+        "print(\"我的體重是\",56,\"公斤\")"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的體重是 56 公斤\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1VDV3nnhlk0I",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "09109652-1e5e-4712-b749-27449df12340"
+      },
+      "source": [
+        "Name=\"黎孟承\"\n",
+        "print(\"我叫做\",Name,\"同學\")"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我叫做 黎孟承 同學\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NVP68Q33mXTN",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "2db8ec62-c56a-4d66-c97c-007599578793"
+      },
+      "source": [
+        "year=19\n",
+        "print(\"我的年紀是\",year,\"歲\")"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的年紀是 19 歲\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Dv4D3AxemdL-",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "86cfbc11-6064-48fa-88f8-f7172018fd88"
+      },
+      "source": [
+        "weight=56\n",
+        "print(\"我的體重是\",weight,\"公斤\")"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的體重是 56 公斤\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "4jPCT1jHn5uJ",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "7390b711-f217-4ed3-9ff3-741341154e2a"
+      },
+      "source": [
+        "name = input(\"請問同學名字?\")\n",
+        "print(\"你好,\",name)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請問同學名字?黎孟承\n",
+            "你好, 黎孟承\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "rTzfCFHcn521",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "20dd0442-b51b-40a0-b398-f31775858117"
+      },
+      "source": [
+        "year = int(input(\"請問幾歲?\"))\n",
+        "print(\"原來你\",year,\"歲\")"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請問幾歲?19\n",
+            "原來你 19 歲\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "XzUUEwzDn5-n",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "0d1849db-7565-40ab-d27d-41c16d998153"
+      },
+      "source": [
+        "weight = float(input(\"請問體重?\"))\n",
+        "print(\"體重為\",weight,\"公斤\")"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請問體重?56\n",
+            "體重為 56.0 公斤\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
